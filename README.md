@@ -1,17 +1,17 @@
 # Akan-Names.
-[Check it out](https://kamauvick.github.io/Akan-Names/)
+[Check it out](https://cecibarasa.github.io/birth-day/)
 
 ## Description.
 A web application that takes a ``user's birthday``, calculates the ``day of the week`` they were born and then depending on their gender outputs their ``Akan Name``. 
 
 ## Author.
- > Victor kamau
+ > Cecilia Barsa
 
 ## Screenshot.
-<image src="https://github.com/kamauvick/Akan-Names/blob/master/images/shot.png?raw=true" width="1000">
+width="1000">
  
  ## Setup.
- > ``git clone https://github.com/kamauvick/Akan-Names.git``
+ > 
  
  ``extract the file``
  
@@ -49,4 +49,4 @@ A web application that takes a ``user's birthday``, calculates the ``day of the 
 > MIT License &copy 2019 Victor 
 
 ## Collaborate
-To collaborate, reach me on [Email](waichigovick@gmail.com)
+
