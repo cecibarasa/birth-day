@@ -6,16 +6,17 @@ function getInput(){
   month = parseInt(document.getElementById("month").value);
   dayOfMonth = parseInt(document.getElementById("monthday").value);
 
-  if((century == "") && (century<=0) && (century >= 30)){
+
+  if(century == ""){
     alert("Input the correct gender");
     return false;
-  }else if ((year == "") && (year <= 0) && (year > 5000)){
+  }else if (year == ""){
     alert("Input the correct year");
     return false;
-  }else if ((month == "")  && (month > 12) && (month <= 0)){
+  }else if (month == ""){
     alert("Input the correct month");
     return false;
-  }else if((dayOfMonth == "")&& (dayOfMonth > 31) && (dayOfMonth <= 0)){
+  }else if(dayOfMonth == ""){
     alert("input the correct date");
     return false;
   }
