@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Khula&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Viaoda+Libre&display=swap');
 body{
   background-color: #c8dad3;
+  font-family: 'Viaoda Libre', cursive;
 }
 h1{
   color: #ffffff;
+  font-family: 'Viaoda Libre', cursive;
 }
 .parent{
   margin-top: 10px;
@@ -14,9 +16,10 @@ h1{
   background-size: cover;
   background-image: #626f92;
   box-shadow: 1px 0px 2px #ffffff;
+  font-family: 'Viaoda Libre', cursive;
 }
 .left{
-  background-image: url('https://cdn.dribbble.com/users/3409191/screenshots/6302425/image.png');
+  background-image: url('https://i.pinimg.com/564x/27/e8/0a/27e80ae223839ba94e72f83eedd8f57c.jpg');
   background-size: center;
   height: 670px;
   border-radius: 10px 0 0 10px;
@@ -26,6 +29,9 @@ h1{
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 5px 0 0 5px;
   height: 670px;
+}
+#image{
+  float: left;
 }
 .akan{
   font-size: 40px;
@@ -41,12 +47,13 @@ h1{
   font-weight: lighter;
   font-size: 25px;
   color: #6150c1;
+  font-family: 'Saira Semi Condensed', sans-serif;
 }
 .p-text{
   margin: 30px 30px 30px 10px;
   color: #ffffff;
   font-size: 20px;
-  font-family: 'Khula', sans-serif;
+  font-family: 'Saira Semi Condensed', sans-serif;
 }
 .genders{
   margin-left: 50px;
