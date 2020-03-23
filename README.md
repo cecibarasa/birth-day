@@ -46,7 +46,7 @@ width="1000">
 * Saturday 13th 2019 returns a value of -0.449 which causes the application to crash
 
 ## License
-> MIT License &copy 2019 Victor 
+> MIT License &copy 2020
 
 ## Collaborate
 
