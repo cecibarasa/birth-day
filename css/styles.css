@@ -43,7 +43,7 @@ h1{
   background-image: url('https://i.pinimg.com/564x/c3/b9/f3/c3b9f35f2bf432a0d95afb5f287aa9e4.jpg');
   background-position: center;
   background-size: 100%;
-  opacity: o.5px;
+  opacity: o.5;
   background-repeat: no-repeat;
 }
 .top-form{
@@ -56,6 +56,9 @@ h1{
   color: white;
   font-family: 'Rakkas', cursive;
 }
+.radio-button{
+  color: #ffffff;
+}
 .p-text{
   margin: 30px 30px 30px 10px;
   color: #ffffff;
@@ -64,10 +67,8 @@ h1{
 }
 .genders{
   margin-left: 50px;
-  color: #ffffff;
-}
-#rad1{
-  color: #ffffff;
+  font-family: 'Rakkas', cursive;
+  color: whitesmoke;
 }
 .btn{
   margin-left: 50px;
@@ -76,7 +77,7 @@ h1{
   width: 200px;
   border-radius: 20px;
   color: whitesmoke;
-  font-family: 'Rakkas', cursive;;
+  font-family: 'Rakkas', cursive; color: #ffffff;
 }
 .q-text{
   color: #fdd043;
