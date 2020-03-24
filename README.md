@@ -1,6 +1,3 @@
-# Project Title
-Akan names.
-Just ike the way the Akan people name their children according to the day of birth, you too can know what your name would be if you were one of them.
 
 # Author.
 Cecilia Barasa
