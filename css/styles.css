@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Viaoda+Libre&display=swap');
+body{
+  background-color: #c8dad3;
+  font-family: 'Viaoda Libre', cursive;
+}
+h1{
+  color: #ffffff;
+  font-family: 'Cutive', serif;
+}
+.parent{
+  margin-top: 10px;
+  margin-bottom: 0;
+  height: 670px;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: #626f92;
+  box-shadow: 1px 0px 2px #ffffff;
+  font-family: 'Cutive', serif;
+}
+.left{
+  background-image: url('https://i.pinimg.com/564x/a3/94/13/a39413d2d04e2849b813239d6b26533b.jpg');
+  background-size: center;
+  height: 670px;
+  border-radius: 10px 0 0 10px;
+  margin: 0;
+}
+.overlay{
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px 0 0 5px;
+  height: 670px;
+}
+#image{
+  float: left;
+}
+.akan{
+  font-size: 40px;
+  padding-top: 20px;
+  font-weight: bolder;
+  font-family: system-ui;
+}
+.right{
+  background-image: url('https://i.pinimg.com/564x/c3/b9/f3/c3b9f35f2bf432a0d95afb5f287aa9e4.jpg');
+  background-position: center;
+  background-size: 100%;
+  opacity: o.5;
+  background-repeat: repeat;
+}
+.top-form{
+  margin-top: 30px;
+}
+.labels{
+  font-family: monospace;
+  font-weight: lighter;
+  font-size: 25px;
+  color:  whitesmoke;
+  font-family: 'Rakkas', cursive;
+}
+.radio-button{
+  color: #ffffff;
+}
+.p-text{
+  margin: 30px 30px 30px 10px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Rakkas', cursive;
+}
+.genders{
+  margin-left: 50px;
+  font-family: 'Rakkas', cursive;
+  color: whitesmoke;
+}
+.btn{
+  margin-left: 50px;
+  margin-top: 20px;
+  height: 45px;
+  width: 200px;
+  border-radius: 20px;
+  color: whitesmoke;
+  font-family: 'Rakkas', cursive; color: #ffffff;
+}
+.q-text{
+  color: #fdd043;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 80px 20px 20px 10px;
+}
+#result{
+  margin-top: 30px;
+  color: #fdd043;
+  font-size: 28px;
+}
+.rounded-circle{
+  margin-left: 40%;
+}
