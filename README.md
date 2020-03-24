@@ -6,8 +6,8 @@ Just ike the way the Akan people name their children according to the day of bir
 Cecilia Barasa
 
 # Setup
-![GitHub Logo](/image/shot.png)
-Format: ![Alt Text]()
+![Image of project]
+(https://cecibarasa.github.io/birth-day/Image/shot.png)
 
 # Technologies Used.
 1. HTML
