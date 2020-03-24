@@ -5,7 +5,7 @@ body{
 }
 h1{
   color: #ffffff;
-  font-family: 'Viaoda Libre', cursive;
+  font-family: 'Cutive', serif;
 }
 .parent{
   margin-top: 10px;
@@ -16,10 +16,10 @@ h1{
   background-size: cover;
   background-image: #626f92;
   box-shadow: 1px 0px 2px #ffffff;
-  font-family: 'Viaoda Libre', cursive;
+  font-family: 'Cutive', serif;
 }
 .left{
-  background-image: url('https://i.pinimg.com/564x/27/e8/0a/27e80ae223839ba94e72f83eedd8f57c.jpg');
+  background-image: url('https://i.pinimg.com/564x/a3/94/13/a39413d2d04e2849b813239d6b26533b.jpg');
   background-size: center;
   height: 670px;
   border-radius: 10px 0 0 10px;
@@ -40,10 +40,11 @@ h1{
   font-family: system-ui;
 }
 .right{
-  background-image: url('https://i.pinimg.com/236x/b8/2a/02/b82a02e32fc8adc2fbbeef7ce5202780.jpg');
+  background-image: url('https://i.pinimg.com/564x/c3/b9/f3/c3b9f35f2bf432a0d95afb5f287aa9e4.jpg');
   background-position: center;
   background-size: 100%;
-  opacity: 0.5px;;
+  opacity: o.5px;
+  background-repeat: no-repeat;
 }
 .top-form{
   margin-top: 30px;
@@ -52,17 +53,21 @@ h1{
   font-family: monospace;
   font-weight: lighter;
   font-size: 25px;
-  color: black;
-  font-family: 'Saira Semi Condensed', sans-serif;
+  color: white;
+  font-family: 'Rakkas', cursive;
 }
 .p-text{
   margin: 30px 30px 30px 10px;
   color: #ffffff;
   font-size: 20px;
-  font-family: 'Saira Semi Condensed', sans-serif;
+  font-family: 'Rakkas', cursive;
 }
 .genders{
   margin-left: 50px;
+  color: #ffffff;
+}
+#rad1{
+  color: #ffffff;
 }
 .btn{
   margin-left: 50px;
@@ -70,6 +75,8 @@ h1{
   height: 45px;
   width: 200px;
   border-radius: 20px;
+  color: whitesmoke;
+  font-family: 'Rakkas', cursive;;
 }
 .q-text{
   color: #fdd043;
