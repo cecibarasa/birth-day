@@ -39,6 +39,12 @@ h1{
   font-weight: bolder;
   font-family: system-ui;
 }
+.right{
+  background-image: url('https://i.pinimg.com/236x/b8/2a/02/b82a02e32fc8adc2fbbeef7ce5202780.jpg');
+  background-position: center;
+  background-size: 100%;
+  opacity: 0.5px;;
+}
 .top-form{
   margin-top: 30px;
 }
