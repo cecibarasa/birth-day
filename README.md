@@ -5,9 +5,8 @@ Just ike the way the Akan people name their children according to the day of bir
 # Author.
 Cecilia Barasa
 
-
 # Setup
-
+![Image of project](https://cecibarasa.github.io/birth-day/index.pdf)
 
 # Technologies Used.
 1. HTML
@@ -16,14 +15,14 @@ Cecilia Barasa
 4. BOOTSTRAP
 
 # BDD
-Inputs	Description
-Century	The century that the user was born in, eg 20th century
-Year	The year of the century eg 98th year
-Month	The month of the year eg 12th month
-Date	The day of the month eg 31st day
-Outputs	Description
-Day of birth	The day of the week that the user was born eg Tuesday
-Akan name	The corresponding Akan name for the user eg Kofi
+- Inputs	Description
+* Century	The century that the user was born in, eg 20th century
+* Year	The year of the century eg 98th year
+* Month	The month of the year eg 12th month
+* Date	The day of the month eg 31st day
+- Outputs	Description
+* Day of birth	The day of the week that the user was born eg Tuesday
+* Akan name	The corresponding Akan name for the user eg Kofi
 
 # License
 MIT License & copy Cecilia
