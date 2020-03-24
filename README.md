@@ -8,6 +8,7 @@ Cecilia Barasa
 # Setup
 ![Image of project]
 (https://cecibarasa.github.io/birth-day/Image/shot.png)
+/home/nabalayo/Documents/birth-day/Image/shot.png
 
 # Technologies Used.
 1. HTML
