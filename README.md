@@ -4,7 +4,7 @@
 Cecilia Barasa
 
 # Setup
-![Image of project]
+![]
 (Image/shot.png)
 
 $ git clone https://github.com/cecibarasa/birth-day.git
