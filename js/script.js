@@ -40,7 +40,6 @@ let daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Frida
 let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
-
 //get selected gender
 function checkGender(){
   var gen = document.getElementsByName("elite");
@@ -106,7 +105,6 @@ function checkGender(){
         break
         default:
         console.log("pass");//Test gender switch
-        alert("result")
     }
 }
 result
