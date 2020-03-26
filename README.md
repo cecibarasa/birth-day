@@ -25,5 +25,7 @@ $ git clone https://github.com/cecibarasa/birth-day.git
 * Day of birth	The day of the week that the user was born eg Tuesday
 * Akan name	The corresponding Akan name for the user eg Kofi
 
+git clone https://github.com/cecibarasa/birth-day.git
+
 # License
 MIT License & copy Cecilia
