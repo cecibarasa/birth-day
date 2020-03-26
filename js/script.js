@@ -6,7 +6,6 @@ function getInput(){
   month = parseInt(document.getElementById("month").value);
   dayOfMonth = parseInt(document.getElementById("monthday").value);
 
-
   if(century == ""){
     alert("Input the correct gender");
     return false;
@@ -47,7 +46,7 @@ let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 
-//get selected radio button
+//get selected gender
 function checkGender(){
   var gen = document.getElementsByName("elite");
   if(gen[0].checked == true){
@@ -114,3 +113,4 @@ function checkGender(){
         console.log("pass");//Test gender switch
     }
 }
+result
