@@ -5,7 +5,7 @@ Cecilia Barasa
 
 # Setup
 ![]
-(birth-day/blob/master/Image/shot.png)
+(https://github.com/cecibarasa/birth-day/blob/master/Image/shot.png)
 
 $ git clone https://github.com/cecibarasa/birth-day.git
 
