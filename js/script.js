@@ -106,6 +106,7 @@ function checkGender(){
         break
         default:
         console.log("pass");//Test gender switch
+        alert("result")
     }
 }
 result

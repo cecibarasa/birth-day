@@ -10,11 +10,11 @@ h1{
 .parent{
   margin-top: 10px;
   margin-bottom: 0;
-  height: 670px;
+  height: 100%;
   padding: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: #626f92;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-image: url('https://i.pinimg.com/236x/fd/a1/a8/fda1a80f0695a57e3d154cc366aed36b.jpg');
   box-shadow: 1px 0px 2px #ffffff;
   font-family: 'Cutive', serif;
 }
@@ -28,7 +28,7 @@ h1{
 .overlay{
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 5px 0 0 5px;
-  height: 670px;
+  height: 700px;
 }
 #image{
   float: left;
