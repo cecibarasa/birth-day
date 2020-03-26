@@ -49,7 +49,7 @@ let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 //get selected radio button
 function checkGender(){
-  var gen = document.getElementsByName("rads");
+  var gen = document.getElementsByName("elite");
   if(gen[0].checked == true){
       var gender = "male";
   }else if(gen[1].checked == true){
