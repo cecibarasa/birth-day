@@ -35,11 +35,10 @@ function calculateDay(){
     }
 }
 
-//main caller func
  function checkDayOfWeek(){
      day = calculateDay();
       checkGender();
-      console.log("The function runs");//Test chackDayOfWeek function
+      console.log("The function runs");//Test checkDayOfWeek
 }
 
 //arrays
@@ -109,8 +108,7 @@ function checkGender(){
                   case 6 || -6:
                     document.getElementById("result").innerHTML = "The day is on a Saturday." + " " + "Your Akan name is " + femaleNames[6];
                   break;
-
-              }
+                }
         break
         default:
         console.log("pass");//Test gender switch
