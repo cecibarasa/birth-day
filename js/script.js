@@ -6,16 +6,16 @@ function getInput(){
   month = parseInt(document.getElementById("month").value);
   dayOfMonth = parseInt(document.getElementById("monthday").value);
 
-  if(century == ""){
+  if(century ==- ""){
     alert("Input the correct gender");
     return false;
-  }else if (year == ""){
+  }else if (year === ""){
     alert("Input the correct year");
     return false;
-  }else if (month == ""){
+  }else if (month === ""){
     alert("Input the correct month");
     return false;
-  }else if(dayOfMonth == ""){
+  }else if(dayOfMonth === ""){
     alert("input the correct date");
     return false;
   }
@@ -43,7 +43,7 @@ let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 //get selected gender
 function checkGender(){
   var gen = document.getElementsByName("elite");
-  if(gen[0].checked == true){
+  if(gen[0].checked === true){
       var gender = "male";
   }else if(gen[1].checked == true){
       var gender = "female";
