@@ -1,4 +1,4 @@
-# Akan Names
+# Akan birth names
 * https://cecibarasa.github.io/birth-day/
 # Author.
 Cecilia Barasa
