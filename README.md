@@ -4,6 +4,7 @@
 ## Description
 This appication calculates the day you were born and determines your Akan name according to the day of the week you were born.
 ### [Live Site](https://cecibarasa.github.io/birth-day/)
+# Screenshot ![](screenshot.png)
 # BDD
 - Inputs	Description
 * Century	The century that the user was born in, eg 20th century
