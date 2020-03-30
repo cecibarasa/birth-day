@@ -6,7 +6,7 @@ function getInput() {
     month = parseInt(document.getElementById("month").value);
     dayOfMonth = parseInt(document.getElementById("monthday").value);
 
-    if (century == -"") {
+    if (century === "") {
         alert("Input the correct gender");
         return false;
     } else if (year === "") {
