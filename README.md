@@ -1,9 +1,9 @@
 # Akan birth names
-#### {An application that determines the your day of birth in the Akan Culture}, {Current version 2020}
+#### An application that determines the your day of birth in the Akan Culture, Current version 2020
 #### By **Cecilia Barasa**
 ## Description
 This appication calculates the day you were born and determines your Akan name according to the day of the week you were born.
-### https://cecibarasa.github.io/birth-day/
+### [Live Site](https://cecibarasa.github.io/birth-day/)
 # BDD
 - Inputs	Description
 * Century	The century that the user was born in, eg 20th century
@@ -22,7 +22,7 @@ This appication calculates the day you were born and determines your Akan name a
 * JAVASCRIPT
 * BOOTSTRAP
 ## Support and contact details
-{cecibarasa@gmail.com}
-### License
-*{MIT License & copy Cecilia}*
+### [Contact Me](cecibarasa@gmail.com)
+### [License](https://github.com/cecibarasa/birth-day/blob/master/LICENSE.md)
+*MIT License & copy Cecilia*
 Copyright (c) {2020}
