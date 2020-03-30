@@ -20,6 +20,7 @@ function getInput() {
         return false;
     }
 }
+
 //Calculate function
 function calculateDay() {
     getInput();
