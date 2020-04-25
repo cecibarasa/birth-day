@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -8,56 +9,59 @@
     <link rel="stylesheet" href="css/bootstrap-4.4.1-dist/js">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <title>The Akan Cullture</title>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="jumbotron parent">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="jumbotron p-0 left">
-                <div class="overlay">
-                  <h1 class="text-center akan">The Akan Culture</h1>
-                  <hr class="my-4">
-                  <img src="Image/girl.jpg" alt="picture" class="rounded-circle" height="150" width="120">
-                  <span id="image">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron parent">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="jumbotron p-0 left">
+                        <div class="overlay">
+                            <h1 class="text-center akan">The Akan Culture</h1>
+                            <hr class="my-4">
+                            <img src="Image/girl.jpg" alt="picture" class="rounded-circle" height="150" width="120">
+                            <span id="image">
                   <img src="Image/dreads.jpg" alt="picture" class="rounded-circle" height="150" width="120">
                   </span>
-                  <p class="p-text">The Akan community is believed to be as old as the Congo forest. Some of the prominent personalities who are memebers of the group include the great Kwame Nkrumah, Kofi Annan, Mario Balotelli, John Atta Mills, Idris Elba and among others.<br>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born.</p>
-                    <p class="q-text text-center">What's your Akan name?</p>
+                            <p class="p-text">The Akan community is believed to be as old as the Congo forest. Some of the prominent personalities who are memebers of the group include the great Kwame Nkrumah, Kofi Annan, Mario Balotelli, John Atta Mills, Idris Elba and
+                                among others.<br>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born.</p>
+                            <p class="q-text text-center">What's your Akan name?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 right">
+                    <div class="panel col-sm-6 offset-sm-3">
+                        <div class="form-group top-form">
+                            <label for="century" class="labels"><strong>CENTURY</strong></label>
+                            <input type="number" class="form-control" placeholder="Enter the century" id="century" required min="0" max="30">
+                        </div>
+                        <div class="form-group">
+                            <label for="year" class="labels"><strong>YEAR</strong></label>
+                            <input type="number" placeholder="eg. 1990" class="form-control" id="year" required min="0" max="100">
+                        </div>
+                        <div class="form-group">
+                            <label for="month" class="labels"><strong>MONTH</strong></label>
+                            <input type="number" class="form-control" placeholder="eg. 1-12" id="month" required min="0" max="12">
+                        </div>
+                        <div class="form-group">
+                            <label for="monthDay" class="labels"><strong>DAY OF MONTH</strong></label>
+                            <input type="number" placeholder="eg. 1-7" class="form-control" id="monthday" required min="0" max="12">
+                        </div>
+                        <form class="radio-button">
+                            <input type="radio" class="genders labels" value="male" id="elite1" name="elite" required><strong>Male</strong>
+                            <input type="radio" class="genders labels" value="female" id="elite1" name="elite" required><strong>Female</strong>
+                        </form>
+                        <br>
+                        <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();"><strong>Calculate Birthday</strong></button></a>
+                        <h1 id="result"></h1>
+                    </div>
                 </div>
             </div>
-          </div>
-          <div class="col-md-6 right">
-            <div class="panel col-sm-6 offset-sm-3">
-                    <div class="form-group top-form">
-                      <label for="century" class="labels"><strong>CENTURY</strong></label>
-                      <input type="number" class="form-control" placeholder="Enter the century" id="century" required  min="0" max="30">
-                    </div>
-                    <div class="form-group">
-                      <label for="year" class="labels"><strong>YEAR</strong></label>
-                      <input type="number" placeholder="Enter the year" class="form-control" id="year" required min="0" max="100">
-                    </div>
-                    <div class="form-group">
-                      <label for="month" class="labels"><strong>MONTH</strong></label>
-                      <input type="number" class="form-control" placeholder="Enter the month of the year" id="month" required min="0" max="12">
-                    </div>
-                    <div class="form-group">
-                      <label for="monthDay" class="labels"><strong>DAY OF MONTH</strong></label>
-                      <input type="number" placeholder="Enter the day of the month" class="form-control" id="monthday" required min="0" max="12">
-                    </div>
-                    <form class="radio-button">
-                      <input type="radio" class="genders labels" value="male" id="elite1" name="elite" required><strong>Male</strong>
-                      <input type="radio" class="genders labels" value="female" id="elite1" name="elite" required><strong>Female</strong>
-                    </form>
-                    <br>
-                    <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();"><strong>Calculate Birthday</strong></button></a>
-                    <h1 id="result"></h1>
-            </div>
-          </div>
         </div>
-      </div>
 
-  </div>
-  <script src="js/script.js"></script>
-  </body>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
 </html>

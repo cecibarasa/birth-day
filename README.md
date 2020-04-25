@@ -14,8 +14,6 @@ This appication calculates the day you were born and determines your Akan name a
 - Outputs	Description
 * Day of birth	The day of the week that the user was born eg Tuesday
 * Akan name	The corresponding Akan name for the user eg Kofi
-# Bugs
-The result does not output in all devices
 ## Setup/Installation Requirements
 ***$ git clone https://github.com/cecibarasa/birth-day.git***
 * Google Chrome.
